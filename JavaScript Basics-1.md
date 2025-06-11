@@ -21,9 +21,8 @@ For example – when you click buttons, scroll, popups show – JS is running be
 
 Hmm... tricky one.
 
-✔️ Initially, JS was **interpreted** – that means code runs line-by-line directly by the browser. Like old-school scripting languages.
-
-✔️ But **modern JS engines** (like Google Chrome’s V8) made it better – they do **JIT (Just-In-Time) Compilation**. So the engine parses, compiles and optimizes JS into machine code on the fly.
+Initially, JS was **interpreted** – that means code runs line-by-line directly by the browser. Like old-school scripting languages.
+But **modern JS engines** (like Google Chrome’s V8) made it better – they do **JIT (Just-In-Time) Compilation**. So the engine parses, compiles and optimizes JS into machine code on the fly.
 
 So today, JS is **both interpreted AND JIT compiled** depending on the browser.
 
@@ -109,8 +108,7 @@ var x = 5;          // Old way (function scoped) – avoid using 'var'
 let name = "Ace";  // Modern, block scoped (good practice)
 const pi = 3.14;   // Like 'final' or 'const' – cannot change
 ```
-
-✔️ Block scoped means usable only inside `{ }` where you defined it.
+Block scoped means usable only inside `{ }` where you defined it.
 
 ---
 
@@ -143,7 +141,7 @@ const pi = 3.14;   // Like 'final' or 'const' – cannot change
 
 ## Conditional Statements
 
-✔️ **if else** – Same as other languages:
+ **if else** – Same as other languages:
 
 ```js
 let age = 18;
@@ -155,7 +153,7 @@ if(age >= 18){
 }
 ```
 
-✔️ **switch case** – Like C/Java:
+**switch case** – Like C/Java:
 
 ```js
 let fruit = "apple";
@@ -176,7 +174,7 @@ switch(fruit){
 
 ## Loops
 
-✔️ **for loop** (familiar):
+**for loop** (familiar):
 
 ```js
 for(let i = 0; i < 3; i++){
@@ -184,7 +182,7 @@ for(let i = 0; i < 3; i++){
 }
 ```
 
-✔️ **while loop**:
+**while loop**:
 
 ```js
 let i = 0;
@@ -194,7 +192,7 @@ while(i < 3){
 }
 ```
 
-✔️ **do...while loop** (runs at least once):
+ **do...while loop** (runs at least once):
 
 ```js
 let i = 0;
@@ -204,7 +202,7 @@ do {
 } while(i < 3);
 ```
 
-✔️ **for...of (for arrays)**:
+ **for...of (for arrays)**:
 
 ```js
 let cars = ["BMW", "Audi"];
@@ -213,7 +211,7 @@ for(let car of cars){
 }
 ```
 
-✔️ **for...in (for objects)**:
+**for...in (for objects)**:
 
 ```js
 let person = {name: "Ace", age: 20};
@@ -226,7 +224,7 @@ for(let key in person){
 
 ## Functions (JS loves functions)
 
-✔️ **Basic function:**
+**Basic function:**
 
 ```js
 function greet(name){
@@ -234,13 +232,13 @@ function greet(name){
 }
 ```
 
-✔️ **Arrow function:**
+ **Arrow function:**
 
 ```js
 const greet = (name) => "Hi " + name;
 ```
 
-✔️ **With default parameter:**
+ **With default parameter:**
 
 ```js
 function greet(name = "Guest"){
@@ -248,7 +246,7 @@ function greet(name = "Guest"){
 }
 ```
 
-✔️ **Rest parameters:**
+**Rest parameters:**
 
 ```js
 function sum(...nums){
